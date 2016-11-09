@@ -4,16 +4,12 @@ body {
   font-family: 'Catamaran', sans-serif;
 }
 
-header {
-  position: relative;
+.header {
+  height: 100px;
   color: white;
+  position: relative;
+  background-color: #40545C;
   font-size: 20px;
-  font-weight: 600;
-}
-
-.headerportrait {
-  width: 100%;
-  height: auto;
 }
 
 .headername {
@@ -79,4 +75,5 @@ footer {
   width: 400px;
   height: 268px;
   background-color: black;
+  color: white;
 }

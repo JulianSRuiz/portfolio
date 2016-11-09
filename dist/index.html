@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="portfolioApp">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./assets/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
-  <title>Portfolio | Julian Ruiz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <title>Portfolio | Julian Ruiz</title>
 </head>
+
 <body>
 
+  <div class="header">
+    <div class="headername">
+      <a ui-sref="homeHTML">JULIAN RUIZ</a>
+    </div>
 
-<ui-view></ui-view>
+    <div class="headerlinks">
+      <ul>
+        <li><a ui-sref="bioHTML">BIO</a></li>
+        <li><a ui-sref="projectsHTML">PROJECTS</a></li>
+        <li><a ui-sref="techHTML">TECHNOLOGIES</a></li>
+        <li><a ui-sref="contactHTML">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+
+    <ui-view></ui-view>
 
 
-  <script src="bundle.js"></script>
 </body>
+<script src="./app.js"></script>
 </html>
