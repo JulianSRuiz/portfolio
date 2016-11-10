@@ -36859,7 +36859,7 @@
   \*********************************/
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"container\">\n  <div class=\"projectcontainer1\">\n    <div class=\"project\">\n      Tech 1\n    </div>\n    <div class=\"project\">\n      Tech 2\n    </div>\n  </div>\n\n  <div class=\"projectcontainer2\">\n    <div class=\"project\">\n      Tech 3\n    </div>\n    <div class=\"project\">\n      Tech 4\n    </div>\n  </div>\n</div>\n";
+	module.exports = "<div class=\"container\">\n  <div class=\"projectcontainer1\">\n    <div class=\"project\">\n      <img ng-src=\"../assets/images/angular.png\" alt=\"\">\n    </div>\n    <div class=\"project\">\n      <img ng-src=\"../assets/images/html.png\" alt=\"\">\n    </div>\n  </div>\n\n  <div class=\"projectcontainer2\">\n    <div class=\"project\">\n      <img ng-src=\"../assets/images/js.png\" alt=\"\">\n    </div>\n    <div class=\"project\">\n      <img ng-src=\"../assets/images/node.png\" alt=\"\">\n    </div>\n  </div>\n</div>\n";
 
 /***/ },
 /* 12 */,
@@ -36870,7 +36870,7 @@
   \*************************************/
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"container\">\n  <div class=\"projectcontainer1\">\n    <div class=\"project\">\n      Tech 1\n    </div>\n    <div class=\"project\">\n      Tech 2\n    </div>\n  </div>\n\n  <div class=\"projectcontainer2\">\n    <div class=\"project\">\n      Tech 3\n    </div>\n    <div class=\"project\">\n      Tech 4\n    </div>\n  </div>\n</div>\n";
+	module.exports = "<div class=\"projcontainer\">\n  <div class=\"projectcontainer1\">\n    <div class=\"project\">\n      Tech 1\n    </div>\n    <div class=\"project\">\n      Tech 2\n    </div>\n  </div>\n\n  <div class=\"projectcontainer2\">\n    <div class=\"project\">\n      Tech 3\n    </div>\n    <div class=\"project\">\n      Tech 4\n    </div>\n  </div>\n</div>\n";
 
 /***/ },
 /* 15 */
@@ -36879,7 +36879,7 @@
   \************************************/
 /***/ function(module, exports) {
 
-	module.exports = "<div>\n  CONTACT ME.\n</div>\n";
+	module.exports = "<div class=\"contactcontainer\">\n  <div class=\"photoopp\">\n    <img ng-src=\"../assets/images/nw2.jpg\" alt=\"\">\n    <h2 class=\"contacttitle\">CONTACT ME.</h2>\n  </div>\n  <div class=\"leftcontactinfo\">\n    <p><strong>Phone:</strong> 817-637-6019</p>\n    <p><strong>Email:</strong> <a href=\"mailto:juliansruiz@gmail.com\">juliansruiz@gmail.com</a></p>\n    <p><strong>Dallas, TX</strong></p>\n  </div>\n  <div class=\"rightcontactinfo\">\n    <p><strong>Follow Me</strong></p>\n    <p><a href=\"https://github.com/JulianSRuiz\">Github</a></p>\n    <p><a href=\"https://www.linkedin.com/in/juliansruiz\">Linked In</a></p>\n  </div>\n</div>\n";
 
 /***/ },
 /* 16 */
@@ -36922,7 +36922,7 @@
 	
 	
 	// module
-	exports.push([module.id, "body {\n  margin: 0;\n  padding: 0;\n  font-family: 'Catamaran', sans-serif;\n}\n\n.header {\n  height: 100px;\n  color: white;\n  position: relative;\n  background-color: #40545C;\n  font-size: 20px;\n}\n\n.headername {\n  position: absolute;\n  top: 30px;\n  left: 20px;\n}\n\n.headerlinks ul {\n  position: absolute;\n  display: flex;\n  top: 10px;\n  right: 20px;\n  text-decoration: none;\n  list-style: none;\n}\n\n.headerlinks li {\n  padding-right: 10px;\n}\n\n.container {\n  width: 100%;\n  height: 600px;\n}\n\nfooter {\n  height: 40px;\n  background-color: #222222;\n  color: white;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n}\n\n.footername {\n  color: #17233D;\n}\n\n/*Projects Container....................*/\n.container {\n  width: 1000px;\n  height: 600px;\n  margin: 20px auto;\n  border: 1px solid lightgray;\n  padding: 20px;\n}\n\n.projectcontainer1 {\n  width: 100%;\n  display: flex;\n  justify-content: space-around;\n  margin-bottom: 60px;\n}\n\n.projectcontainer2 {\n  width: 100%;\n  display: flex;\n  justify-content: space-around;\n}\n\n.project {\n  width: 400px;\n  height: 268px;\n  background-color: black;\n  color: white;\n}\n", ""]);
+	exports.push([module.id, "////////////////INDEX/////////////////\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: 'Catamaran', sans-serif;\n}\n\n.header {\n  height: 100px;\n  color: #112233;\n  position: relative;\n  font-size: 26px;\n}\n\n.headername {\n  position: absolute;\n  top: 36px;\n  left: 20px;\n}\n\n.headername:hover {\n  color: darkgrey;\n}\n\n.headerlinks ul {\n  position: absolute;\n  display: flex;\n  top: 10px;\n  right: 20px;\n  text-decoration: none;\n  list-style: none;\n}\n\n.headerlinks li {\n  padding-right: 10px;\n}\n\n.headerlinks li:hover {\n  color: darkgrey;\n}\n\n.container {\n  width: 100%;\n  height: 600px;\n}\n\n////////////PROJECTS CONTAINER///////////\n.projcontainer {\n  width: 1000px;\n  height: 600px;\n  margin: 20px auto;\n  padding: 20px;\n}\n\n.projectcontainer1 {\n  width: 100%;\n  display: flex;\n  justify-content: space-around;\n  margin-bottom: 60px;\n}\n\n.projectcontainer2 {\n  width: 100%;\n  display: flex;\n  justify-content: space-around;\n}\n\n.project {\n  width: 400px;\n  height: 268px;\n  background-color: black;\n  color: white;\n}\n\n////////////////CONTACTS//////////////////\n.contacttitle {\n  align-items: center;\n}\n\n.contactcontainer {\n  display: flex;\n  justify-content: space-around;\n  margin: 0 auto;\n  padding-top: 50px;\n}\n\n.leftcontactinfo a {\n  text-decoration: none;\n  color: #112233;\n}\n\n.leftcontactinfo a:hover {\n  color: darkgrey;\n}\n\n.rightcontactinfo a {\n  text-decoration: none;\n  color: #112233;\n}\n\n.rightcontactinfo a:hover {\n  color: darkgrey;\n}\n", ""]);
 	
 	// exports
 
