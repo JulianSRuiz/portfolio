@@ -1,10 +1,34 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>Julian you just need an index.html. You can't use a server file to serve this file.... lol</h1>
-  </body>
+<html lang="en" ng-app="portfolioApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <title>Portfolio | Julian Ruiz</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="headername">
+      <a ui-sref="home">JULIAN RUIZ</a>
+    </div>
+
+    <div class="headerlinks">
+      <ul>
+        <li><a ui-sref="bio">BIO</a></li>
+        <li><a ui-sref="work">PROJECTS</a></li>
+        <li><a ui-sref="technologies">TECHNOLOGIES</a></li>
+        <li><a ui-sref="contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+
+    <ui-view></ui-view>
+
+
+</body>
+<script src="./dist/app.js"></script>
 </html>
