@@ -1,4 +1,4 @@
-////////////////INDEX/////////////////
+/*///////////INDEX////////////*/
 body {
   margin: 0;
   padding: 0;
@@ -12,13 +12,15 @@ body {
   font-size: 26px;
 }
 
-.headername {
+.headername a {
   position: absolute;
   top: 36px;
   left: 20px;
+  color: #112233;
+  text-decoration: none;
 }
 
-.headername:hover {
+.headername a:hover {
   color: darkgrey;
 }
 
@@ -35,28 +37,45 @@ body {
   padding-right: 10px;
 }
 
-.headerlinks li:hover {
+.headerlinks li a {
+  color: #112233;
+  text-decoration: none;
+}
+
+.headerlinks li a:hover {
   color: darkgrey;
 }
 
-.container {
-  width: 100%;
-  height: 600px;
+/*///////////WELCOME/////////////*/
+.home-container {
+  width: 60%;
+  margin: 50px auto;
 }
 
-////////////PROJECTS CONTAINER///////////
+.homeimg {
+  background-image: url("../src/assets/images/nw2.jpg");
+}
+
+
+/*///////////BIO////////////*/
+
+.biocontainer {
+  width: 60%;
+  margin: 50px auto;
+}
+
+
+/*////////////PROJECTS CONTAINER///////////*/
 .projcontainer {
-  width: 1000px;
-  height: 600px;
-  margin: 20px auto;
-  padding: 20px;
+  width: 60%;
+  margin: 50px auto;
 }
 
 .projectcontainer1 {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 .projectcontainer2 {
@@ -66,22 +85,50 @@ body {
 }
 
 .project {
-  width: 400px;
-  height: 268px;
-  background-color: black;
-  color: white;
+  width: 300px;
+  height: 200px;
+  color: black;
 }
 
-////////////////CONTACTS//////////////////
+/*///////////////TECH////////////////////*/
+.techcontainer {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.techcontainer1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.techcontainer2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tech {
+  width: 120px;
+  height: 120px;
+  color: black;
+}
+
+.bottomtechrow {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*////////////////CONTACTS/////////////////*/
 .contacttitle {
   align-items: center;
 }
 
 .contactcontainer {
+  width: 60%;
   display: flex;
   justify-content: space-around;
-  margin: 0 auto;
-  padding-top: 50px;
+  margin: 50px auto;
 }
 
 .leftcontactinfo a {
@@ -91,6 +138,10 @@ body {
 
 .leftcontactinfo a:hover {
   color: darkgrey;
+}
+
+.rightcontactinfo {
+  padding-left: 10px;
 }
 
 .rightcontactinfo a {
