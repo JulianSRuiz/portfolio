@@ -21,8 +21,9 @@ module.exports = {
 				, loader: "html"
 			}
 			,
-		  { test: /\.(png|jpg|svg)$/, loader: "url-loader?limit=8192" }
-
+		  { test: /\.(png|jpg|svg)$/
+				, loader: "url-loader?limit<0"
+			}
 		]
 	}
 	, resolve: {

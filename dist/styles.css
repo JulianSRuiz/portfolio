@@ -1,8 +1,9 @@
 /*///////////INDEX////////////*/
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Catamaran', sans-serif;
+  /*background-image: url('./src/assets/images/nw2.png');*/
 }
 
 .header {
@@ -15,8 +16,9 @@ body {
 .headername a {
   position: absolute;
   top: 36px;
-  left: 20px;
+  left: 30px;
   color: #112233;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -24,21 +26,27 @@ body {
   color: darkgrey;
 }
 
+.headername a:active {
+  color: black;
+}
+
 .headerlinks ul {
   position: absolute;
   display: flex;
-  top: 10px;
+  top: 13px;
   right: 20px;
   text-decoration: none;
   list-style: none;
 }
 
 .headerlinks li {
-  padding-right: 10px;
+  font-size: 18px;
+  padding-right: 18px;
 }
 
 .headerlinks li a {
   color: #112233;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -46,16 +54,21 @@ body {
   color: darkgrey;
 }
 
+.headerlinks li a:active {
+  color: black;
+}
 /*///////////WELCOME/////////////*/
 .home-container {
   width: 60%;
-  margin: 50px auto;
+  /*border: 1px solid lightgrey;
+  border-radius: 5px;*/
+  margin: 0 auto;
+  font-size: 42px;
 }
 
-.homeimg {
-  background-image: url("../src/assets/images/nw2.jpg");
+.homesubtext {
+  font-size: 24px;
 }
-
 
 /*///////////BIO////////////*/
 
@@ -88,6 +101,7 @@ body {
   width: 300px;
   height: 200px;
   color: black;
+  display: flex;
 }
 
 /*///////////////TECH////////////////////*/
