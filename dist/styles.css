@@ -119,8 +119,12 @@ body {
 }
 
 .proj1content {
-  background-color: #112233;
+  /*background-color: #112233;*/
   margin-bottom: 10px;
+}
+
+.proj1content img {
+  border: 10px solid #112233;
 }
 
 
