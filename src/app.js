@@ -1,7 +1,9 @@
 //modules
 import css from '../dist/styles.css';
+// import bootstrap form 'bootstrap';
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
+
 
 import homeHTML from './views/homeHTML.html';
 import bioHTML from './views/bioHTML.html';
