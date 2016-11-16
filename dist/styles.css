@@ -39,7 +39,7 @@ body {
 }
 
 .headerlinks li {
-  font-size: 18px;
+  font-size: 20px;
   padding-right: 10px;
 }
 
@@ -64,31 +64,37 @@ body {
 .home-container {
   height: 100vh;
   margin: 0 auto;
-  background-image: url("../src/assets/images/snap2.jpg");
+  /*background-color: #3E4F63;*/
+  background-color: #F4F6F6;
+  /*background-image: url("../src/assets/images/snap2.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .homecontent {
   width: 70%;
-  height: 60vh;
-  margin: 50px auto;
-  display: flex;
-  justify-content: space-around;
+  height: 70vh;
+  margin: 80px auto;
+  text-align: center;
 }
 
 .homesubtext {
-  font-family: 'Anton', sans-serif;
-  font-size: 46px;
-  display: flex;
-  justify-content: space-between;
-  vertical-align: baseline;
-  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 5em;
+  font-weight: 900;
+  color: #112233;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.front {
+  text-shadow: 1px 1px darkgrey;
 }
 
 .enthusiast {
-  color: #BF5917;
+  font-size: 1.5em;
+  font-weight: 300;
 }
 
 /*///////////BIO////////////*/
@@ -119,12 +125,13 @@ body {
 
 .biotext h3 {
   color: #BF5917;
+  text-shadow: 1px 1px #112233;
 }
 
 span {
   font-weight: 500;
   color: #BF5917;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px #112233;
 }
 
 /*////////////PROJECTS CONTAINER///////////*/
@@ -140,11 +147,19 @@ span {
 }
 
 .project {
-  width: 30%;
+  width: 40%;
 }
 
+.project p a {
+  text-decoration: none;
+  color: #248BC7;
+}
+
+.project p a:hover {
+  color: white;
+}
 .projcontainer {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
   margin-top: 50px;
   color: #F4F6F6;
@@ -163,6 +178,7 @@ span {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .projlefttext {
@@ -255,6 +271,12 @@ span {
 .bottomtechrow {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.express img {
+  width: 360px;
+  height: 80px;
 }
 
 /*////////////////CONTACTS/////////////////*/
@@ -311,11 +333,11 @@ span {
 
 .leftcontactinfo a {
   text-decoration: none;
-  color: #BF5917;
+  color: #248BC7;
 }
 
 .leftcontactinfo a:hover {
-  color: #248BC7;
+  color: #F4F6F6;
 }
 
 .rightcontactinfo {
@@ -324,11 +346,11 @@ span {
 
 .rightcontactinfo a {
   text-decoration: none;
-  color: #112233;
+  color: #248BC7;
 }
 
 .rightcontactinfo a:hover {
-  color: #248BC7;
+  color: #F4F6F6;
 }
 
 .contacticon {
