@@ -88,7 +88,7 @@ body {
 }
 
 .enthusiast {
-  color: #112233;
+  color: #BF5917;
 }
 
 /*///////////BIO////////////*/
@@ -102,7 +102,7 @@ body {
 }
 
 .biocontainer {
-  width: 70%;
+  width: 80%;
   margin: 50px auto;
   display: flex;
   justify-content:flex-end;
@@ -117,6 +117,10 @@ body {
   text-shadow: 1px 1px black;
 }
 
+.biotext h3 {
+  color: #BF5917;
+}
+
 span {
   font-weight: 500;
   color: #BF5917;
@@ -129,21 +133,36 @@ span {
   background-color: #112233;
 }
 
+.projecttitle {
+  display: flex;
+  justify-content: space-around;
+  color: #BF5917;
+}
+
+.project {
+  width: 30%;
+}
+
 .projcontainer {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   margin-top: 50px;
   color: #F4F6F6;
-  padding: 10px;
 }
 
 .projectcontainer1 {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #BF5917;
 }
 
 .projectcontainer2 {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .projlefttext {
@@ -160,14 +179,49 @@ span {
 }
 
 .proj1content {
-  /*background-color: #112233;*/
-  margin-bottom: 10px;
+  background-image: url("../src/assets/images/ss1550.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 550px;
+  height: 309px;
+  padding: 0 auto;
+  border: 10px solid black;
 }
 
-.proj1content img {
-  border: 10px solid black;
+.proj1content:hover {
+  background-image: url("../src/assets/images/ss2550.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 550px;
+  height: 309px;
   padding: 0 auto;
+  border: 10px solid black;
 }
+
+.proj2content {
+  background-image: url("../src/assets/images/ss2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 550px;
+  height: 411px;
+  padding: 0 auto;
+  border: 10px solid black;
+}
+
+.proj2content:hover {
+  background-image: url("../src/assets/images/ss1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 550px;
+  height: 411px;
+  padding: 0 auto;
+  border: 10px solid black;
+}
+
 
 /*///////////////TECH////////////////////*/
 .home-container-tech {
@@ -177,7 +231,7 @@ span {
 
 .techcontainer {
   width: 60%;
-  margin: 80px auto;
+  margin: 50px auto;
 }
 
 .techcontainer1 {
@@ -233,7 +287,7 @@ span {
 }
 
 .bigcontainer {
-  margin: 80px auto;
+  margin: 50px auto;
 }
 
 .create {
