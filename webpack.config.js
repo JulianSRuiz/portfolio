@@ -21,7 +21,7 @@ module.exports = {
 				, loader: "html"
 			}
 			,
-		  { test: /\.(png|jpg|svg)$/
+		  { test: /\.(png|jpg|svg|pdf)$/
 				, loader: "url-loader?limit<900000"
 			}
 		]
