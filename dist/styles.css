@@ -65,11 +65,11 @@ body {
   height: 100vh;
   margin: 0 auto;
   /*background-color: #3E4F63;*/
-  background-color: #F4F6F6;
-  /*background-image: url("../src/assets/images/snap2.jpg");
+  /*background-color: #F4F6F6;*/
+  background-image: url("../src/assets/images/hex2.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;*/
+  background-size: cover;
 }
 
 .homecontent {
@@ -148,6 +148,7 @@ span {
 
 .project {
   width: 40%;
+  padding-right: 5px;
 }
 
 .project p a {
@@ -181,8 +182,8 @@ span {
   padding-bottom: 20px;
 }
 
-.projlefttext {
-  font-size: 18px;
+.projlefttext p {
+  padding-right: 5px;
 }
 
 .projlefttext a {
