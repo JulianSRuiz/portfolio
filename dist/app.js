@@ -36940,7 +36940,7 @@
   \*********************************/
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"home-container\">\n    <div class=\"header\">\n        <div class=\"headername\">\n            <a ui-sref=\"home\">JULIAN RUIZ</a>\n        </div>\n\n        <div class=\"headerlinks\">\n            <ul>\n                <li><a ui-sref=\"bio\">BIO</a></li>\n                <li><a ui-sref=\"work\">PROJECTS</a></li>\n                <li><a ui-sref=\"technologies\">TECHNOLOGIES</a></li>\n                <li><a ui-sref=\"contact\">CONTACT</a></li>\n            </ul>\n        </div>\n    </div>\n\n    <div class=\"homecontent\">\n        <p class=\"homesubtext front\">Front End Developer</p>\n        <p class=\"homesubtext enthusiast\">UI/UX Design Enthusiast</p>\n    </div>\n</div>\n";
+	module.exports = "<div class=\"home-container\">\n    <div class=\"header\">\n        <div class=\"headername\">\n            <a ui-sref=\"home\">JULIAN RUIZ</a>\n        </div>\n\n        <div class=\"headerlinks\">\n            <ul>\n                <li><a ui-sref=\"bio\">BIO</a></li>\n                <li><a ui-sref=\"work\">PROJECTS</a></li>\n                <li><a ui-sref=\"technologies\">TECHNOLOGIES</a></li>\n                <li><a ui-sref=\"contact\">CONTACT</a></li>\n            </ul>\n        </div>\n    </div>\n\n    <div class=\"homecontent\">\n        <p class=\"homesubtext front\">Front-End Developer</p>\n        <p class=\"homesubtext enthusiast\">UI/UX Design Enthusiast</p>\n    </div>\n</div>\n";
 
 /***/ },
 /* 16 */
