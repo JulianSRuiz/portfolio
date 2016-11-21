@@ -120,19 +120,18 @@ body {
   font-size: 24px;
   font-weight: 200;
   padding: 15px;
-  text-shadow: 1px 1px black;
+  /*text-shadow: 1px 1px black;*/
 }
 
 .biotext h3 {
   color: #BF5917;
-  text-shadow: 1px 1px #112233;
 }
 
-span {
+/*span {
   font-weight: 500;
   color: #BF5917;
   text-shadow: 1px 1px #112233;
-}
+}*/
 
 /*////////////PROJECTS CONTAINER///////////*/
 .projmaincontainer {
